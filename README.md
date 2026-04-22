@@ -1,5 +1,16 @@
 # Ziguard
 
+> ## ⚠️ WARNING: RESEARCH PROJECT ONLY — DO NOT USE IN PRODUCTION ⚠️
+>
+> **This repository is a research/experimental project and is NOT intended for production use.**
+>
+> - It has **not** been audited for security, correctness, or cryptographic soundness.
+> - It may contain **serious vulnerabilities**, undefined behavior, or protocol deviations.
+> - It is **not fit** for protecting sensitive data, real networks, or any real-world traffic.
+> - **No guarantees** are made about stability, safety, interoperability, or fitness for any purpose.
+>
+> **Use at your own risk. For anything beyond experimentation, use a vetted WireGuard implementation such as [wireguard-go](https://github.com/WireGuard/wireguard-go), the Linux kernel module, or [boringtun](https://github.com/firezone/boringtun).**
+
 A WireGuard implementation in Zig, ported from [boringtun](https://github.com/cloudflare/boringtun) ([Firezone fork](https://github.com/firezone/boringtun)). Zero external dependencies — uses only Zig's standard library.
 
 ## Requirements
